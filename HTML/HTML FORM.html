@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Grouping Form Controls in HTML</title>
+  </head>
+  <body>
+    <h1 align="center"><font color="red">SIGN IN DETAILS</font></h1>
+    <form>
+      <fieldset>
+        <legend>Name</legend>
+        <label>Firstname: <input type="text" name="firstname" /></label>
+        <label>Lastname: <input type="text" name="lastname" /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Gender</legend>
+        <label><input type="radio" name="gender" value="male" /> Male</label>
+        <label
+          ><input type="radio" name="gender" value="female" /> Female</label
+        >
+      </fieldset>
+      <fieldset>
+        <legend>Hobbies</legend>
+        <label
+          ><input type="checkbox" name="hobbies" value="soccer" /> Soccer</label
+        >
+        <label
+          ><input type="checkbox" name="hobbies" value="cricket" />
+          Cricket</label
+        >
+        <label
+          ><input type="checkbox" name="hobbies" value="baseball" />
+          Baseball</label
+        >
+      </fieldset>
+      <fieldset>
+        <legend>Contact Details</legend>
+        <label>Email Address: <input type="email" name="email" /></label>
+        <label>Phone Number: <input type="text" name="phone" /></label>
+      </fieldset>
+    </form>
+  </body>
+</html>
