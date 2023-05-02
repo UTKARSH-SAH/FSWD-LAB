@@ -1,0 +1,162 @@
+<html>
+  <head>
+    <title>practice</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    * {
+      margin: 0;
+    }
+    #s {
+      font-family: Arial, Helvetica, sans-serif;
+      color: gold;
+    }
+    .container {
+      color: blue;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+    }
+    ul > li {
+      float: left;
+      padding: 2;
+      border: 1px solid black;
+    }
+    .box {
+      width: 300px;
+      height: 200px;
+      margin: 20px;
+      border: 10px solid red;
+      padding: 10px;
+      background-color: aquamarine;
+      color: blue;
+      text-align: center;
+    }
+  </style>
+  <!--frameset rows="*,*">
+    <frame src="https://www.geeksforgeeks.org/" name="gfg" />
+    <frame src="https://www.geeksforgeeks.org/" name="gfg" />
+  </frameset -->
+  <body id="s">
+    <font color="red"> <h1>PRACTICE</h1> </font><br />
+    <p style="color: green">
+      This is an example of inline CSS. Inline CSS is used to apply CSS styles
+      directly to HTML elements.
+    </p>
+    <img
+      src="Artificial-Intelligence-5.jpg"
+      alt="FSDW"
+      width="1500"
+      height="300"
+    />
+    <a href="HTML TABLE.html" target="_blank">HTML TABLE</a>
+    <h2>LIST</h2>
+    <ol class="container">
+      <li>monday</li>
+      <li>tuesday</li>
+      <li>wednesday</li>
+    </ol>
+    <ul type="square">
+      <li>monday</li>
+      <li>tuesday</li>
+      <li>wednesday</li>
+    </ul>
+    <br />
+    <h1 align="center"><font color="red">SIGN IN DETAILS</font></h1>
+    <form>
+      <fieldset>
+        <legend>FORM</legend>
+        <label>FIRST NAME</label>
+        <input type="text" name="fn" />
+        <label>LAST NAME</label>
+        <input type="text" name="ln" />
+        <br /><br />
+        <label>EMAIL</label>
+        <input type="email" name="email" />
+        <label>MOBILE</label>
+        <input type="number" name="n" />
+        <label>DOB</label>
+        <input type="date" name="d" />
+        <p>GENDER:</p>
+        <label>MALE</label>
+        <input type="radio" name="gender" />
+        <label>FEMALE</label>
+        <input type="radio" name="gender" /><br />
+        <label>ARE YOU 18+</label>
+        <input type="checkbox" name="V" /><br />
+        <textarea name="add" rows="6" cols="50">ADDRESS</textarea><br />
+        <label>ENTER CITY</label>
+        <select name="city">
+          <option value="delhi">DEL</option>
+          <option value="DEH">DHL</option>
+          <option value="LUK">LUK</option>
+        </select>
+        <br />
+        <label>checkbox</label>
+        <input type="checkbox" />
+        <label>checkbox2</label>
+        <input type="checkbox" /><br />
+        <input type="submit" name="s" />
+        <input type="reset" name="r" />
+      </fieldset>
+    </form>
+
+    <table border="2" cellspacing="2" cellpadding="15" width="60%">
+      <caption>
+        TIME TABLE CAPTION
+      </caption>
+      <tr>
+        <th colspan="6">Time Table</th>
+      </tr>
+
+      <tr>
+        <th rowspan="6">Hours</th>
+        <th>mon</th>
+        <th>tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+      </tr>
+
+      <tr>
+        <td>computer</td>
+        <td>Maths</td>
+        <td>computer</td>
+        <td>Maths</td>
+        <td>Arts</td>
+      </tr>
+
+      <tr>
+        <td>computer</td>
+        <td>Maths</td>
+        <td>computer</td>
+        <td>Maths</td>
+        <td>Arts</td>
+      </tr>
+
+      <tr>
+        <th colspan="5">Lunch</th>
+      </tr>
+
+      <tr>
+        <td>computer</td>
+        <td>Maths</td>
+        <td>computer</td>
+        <td>Maths</td>
+        <td rowspan="2">Project</td>
+      </tr>
+
+      <tr>
+        <td>computer</td>
+        <td>Maths</td>
+        <td>computer</td>
+        <td>Maths</td>
+      </tr>
+    </table>
+    <!--BOX MODEL-->
+    <div class="box">
+      <p>BOX MODEL</p>
+    </div>
+  </body>
+</html>
