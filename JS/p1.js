@@ -8,8 +8,8 @@
   </head>
   <body>
     <script>
-      const a = "HELLOW";
-      let b = "WORLD";
-      console.log(a + "\n" + b);
+      document.writeln("HELLOW");
+      document.write("WORLD");
     </script>
-  </body> </html>
+  </body>
+</html>
