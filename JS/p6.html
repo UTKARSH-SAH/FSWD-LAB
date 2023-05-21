@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WA HTML PAGE TO REGISTER & VALIDATE A USER</title>
+  </head>
+  <script>
+    function validateForm() 
+    {
+        var username = document.forms["registrationForm"]["username"].value;
+        var password = document.forms["registrationForm"]["password"].value;
+// Check if fields are empty
+        if (username == "" ||  password == "") 
+        {
+            alert("All fields must be filled out");
+            return false;
+        }
+// Validate password length
+        if (password.length < 6) 
+        {
+            alert("Password must be at least 6 characters long");
+            return false;
+        }
+// Registration successful
+        alert("Registration successful");
+        return true;
+    }
+</script>
+</head>
+<body>
+<form name="registrationForm" onsubmit="return validateForm()">
+    <fieldset>
+    <legend>USER Registration</legend>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+    <input type="submit" value="Register">
+    </fieldset>
+</form>
+</legend>
+</body>
+</html>
+
+  
