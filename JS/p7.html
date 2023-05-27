@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GET ELEMENT BY NAME</title>
+  </head>
+  <body>
+    <input
+      name="searchTxt"
+      type="text"
+      maxlength="512"
+      id="searchTxt1"
+      class="searchField"
+    />
+    <button type="button" onclick="searchURL1()">Please Click Hear</button>
+    <br /><br /><br /><br />
+
+    <script type="text/javascript">
+      function searchURL1() {
+        alert("Hello" + document.getElementsByTagName("input")[0].value);
+      }
+    </script>
+  </body>
+</html>
